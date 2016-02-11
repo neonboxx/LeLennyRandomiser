@@ -1,0 +1,46 @@
+body {
+  min-width: 200px;
+  text-align: center;
+  font-family: "Calibri";
+  position: relative;
+  margin: 0;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.wrapper{
+    padding: 20px;   
+}
+.history{
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right:0;
+    left:0;
+}
+.historyBtn{
+    position: fixed;
+    top: 4px;
+    right: 4px;
+}
+.historyCloseBtn{
+    position: fixed;
+    top: 4px;
+    right: 4px;
+}
+.btn{
+    position: fixed;
+    top: 4px;
+    left: 4px;
+}
+.lstHistory{
+    background-color: white;
+    list-style: none;
+    padding: 0;
+}
+.lstHistory li{
+    border-top: solid 1px black;
+    font: 22pt Calibri;
+}
